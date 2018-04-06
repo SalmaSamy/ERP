@@ -73,6 +73,24 @@
     border-radius: 5px;
     border: 1px solid #e1e3e4 ;  
 }
+.incol{
+}
+.photo{
+    width: 94% ;
+    
+}
+.colum1{
+    width: 410px; 
+    height: 300px;
+    margin-left: 15px;
+}
+.colum2{
+    width: 410px; 
+    height: 490px;
+    margin-left:550px;
+    margin-top: -300px;
+}
+
 /***end of noor part **/
 
 #colorIcon , .icons_color{
