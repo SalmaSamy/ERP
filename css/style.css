@@ -166,7 +166,7 @@
     position: absolute;
     bottom: -20px;
     margin-left: 5px;
-    background-color: whitesmoke;
+    background-color: rgb(255,255,255,0.4);
     width:90%;
     padding:10px;
 }
@@ -242,9 +242,10 @@ a i{
 /* end of header */
 
 /*Ashrakat page 5 speeches section 2 */
-.transparant .thumbnail{
+.transparant .thumbnail , .transparant3 .thumbnail{
     border: none; 
     position: relative;
+    padding-bottom: 10px;
 }
 
 .transparant2 .thumbnail {
@@ -252,10 +253,35 @@ a i{
     margin-left:-50px; 
 }
 
+.transparant3 .thumbnail img{
+    min-height:206.73px;
+    min-width: 254.73px;
+}
+
+.transparant2 .page5_sec2_2r {
+    background-color: rgb(255,255,255,0.4);
+    position: absolute;
+    bottom: -5px;
+    border-bottom: 0.25px solid ghostwhite;
+    border-left: 0.25px solid ghostwhite;
+    border-right: 0.25px solid ghostwhite;
+    width: 85%;
+    margin-left: 7px;
+    padding:5px;
+}
+
+
 .transparant2 .thumbnail p{
     font-size: 20px;
     font-style: normal;
     padding: 15px;
+}
+
+.transparant2 .page5_sec2_2r p{
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #swapImg{
