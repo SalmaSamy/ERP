@@ -215,11 +215,23 @@ a i{
     padding: 15px;
 }
 
-
 #swapImg{
    min-width: 547px;
    max-height: 364.72px;    
 }
 
+<<<<<<< HEAD
 /* End of page 5 speeches section2 */
 >>>>>>> a019c56b6af47b7793e670ba26ff38a727037da0
+=======
+#counterValue , .transparant2 .thumbnail span{
+ color: #92856a;
+ font-weight: bold;
+}
+
+.transparant2 .thumbnail span{
+    font-size: 20px;
+    font-weight: normal;    
+}
+/* End of page 5 speeches section2 */
+>>>>>>> 68e550f78dbfe3331761363531e7ce94c66fcbf4
