@@ -1,0 +1,51 @@
+/* Ashrakat section2 page 2 */ 
+.section2_page2_row1_col1{
+    color: #92856a;
+    font-weight: bold;
+}
+
+.page_2_paragraph1{
+    font-size: 12px;
+}
+
+#sharedBox{
+    display: inline;
+}
+
+#colorIcon{
+    color: #92856a;
+}
+
+
+.assignHeightToCol{
+ height: 309px;    
+}
+
+.feb17{
+  font-weight: bold;
+  font-size: 12px;
+  color: #92856a;    
+}
+
+.navbar{
+ display: block;    
+}
+
+.navbar a{
+  color: #92856a;
+  margin-left: 15px;    
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.navbar a:hover{
+  color: #92856a;   
+}
+
+.smallImgcol{
+    height: 575px;
+}
+
+/* the end of section 2 page 2 */
