@@ -72,6 +72,52 @@
 /***end of noor part **/
 
 
+/***Nooor part****/
+.page4{
+    color: #92856a;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.pragh{
+    font-size: 10px;
+}
+
+.thumbnaiover {
+    background-color: gray; 
+    z-index: 1; /* Added Lower Z-Index Value */
+}
+
+.mycontent-right {
+  font-family: Myriad Pro ;
+  font-weight: bold ;
+  font-size: 30px ; 
+  color: #92856a;
+  white-space: pre-wrap; 
+  border-right: 2px solid #92856a;
+}
+
+.title{
+    font-size: 20px;
+    color: black ; 
+}
+.icon-box{
+    color: #92856a;
+    font-size: 18px;
+}
+    
+.plus_icon{
+    color: #92856a;
+    font-size: 18px;
+    margin-right: 0px;
+}
+
+.toright{
+    color: #92856a;
+    margin-right: 0px;   
+}
+/***end of noor part **/
+
 #colorIcon , .icons_color{
     color: #92856a;
     padding: 5px;
