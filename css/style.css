@@ -21,8 +21,55 @@
 }
 
 #sharedBox{
-    display: inline;
+    display: inline-block;
 }
+
+
+/***Nooor part****/
+.page4{
+    color: #92856a;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.pragh{
+    font-size: 12px;
+}
+
+.thumbnaiover {
+    background-color: gray; 
+    z-index: 1; /* Added Lower Z-Index Value */
+}
+
+.mycontent-right {
+  font-family: Myriad Pro ;
+  font-weight: bold ;
+  font-size: 30px ; 
+  color: #92856a;
+  white-space: pre-wrap; 
+  border-right: 2px solid #92856a;
+}
+
+.title{
+    font-size: 20px;
+    color: black ; 
+}
+.icon-box{
+    color: #92856a;
+    font-size: 18px;
+}
+    
+.plus_icon{
+    color: #92856a;
+    font-size: 18px;
+    margin-right: 0px;
+}
+
+.toright{
+    color: #92856a;
+    margin-right: 0px;   
+}
+/***end of noor part **/
 
 
 #colorIcon , .icons_color{
@@ -122,3 +169,48 @@ a i{
 
 /* end of salma part */
 
+/* seif part "header*/
+.big
+{
+  position:absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+}
+.small
+{
+  position:absolute;
+  top: 25px;
+  left: 100px;
+  z-index: 2;
+}
+/* end of header */
+
+/*Ashrakat page 5 speeches section 2 */
+.transparant .thumbnail{
+    border: none; 
+    position: relative;
+}
+
+.transparant2 .thumbnail {
+    background-color: rgb(255,255,255,0.4);
+    margin-left:-50px; 
+}
+
+.transparant2 .thumbnail p{
+    font-size: 20px;
+    font-style: normal;
+    padding: 15px;
+}
+
+.arrows{
+    float:right;
+    padding-bottom: 5px;
+}
+
+#swapImg{
+   min-width: 547px;
+   max-height: 364.72px;    
+}
+
+/* End of page 5 speeches section2 */

@@ -1,0 +1,70 @@
+<html>
+    <head>
+     <link href="css/style.css" rel="stylesheet">
+     <link href = "css/bootstrap.min.css" rel ="stylesheet"> 
+     <script src="js/jquery.min.js"></script>    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    </head>
+<body>
+  
+    
+   <div class = "container">
+    <div class="container">
+     <div class = "row">             <!-- row of tittles  -->
+      <div class = "col-md-offset-1 col-md-12">    
+       <h3 style = "font-weight: bold;">H.H.'S</h3>
+       <h3 class = "section2_page2_row1_col1">Image gallery </h3>
+      </div>
+     </div>              <!-- end row of tittles  -->  
+     <hr width = "15%" style = "float:left;margin-left: 80px;">
+        <br><br><br>
+    <div id = "speeches section2">  
+      <div class = "row">                   <!-- start of row1 in section2-->
+       <div class = "col-md-6 col-md-offset-1">
+        <div class = "transparant"> 
+         <div class = "thumbnail">
+          <img id = "swapImg" src ="swich_photos/1.jpg">
+         </div>
+        </div>      
+       </div>
+      <div class = "col-md-3" style="padding-top: 10px;">
+        <div class = "transparant2">
+          <div class = "thumbnail">
+              <p>The future, with its needs and challenges call upon us to embrark prepetual quest for alternative source of energy</p>
+            <hr>
+              <p>From a speech delivered at the Student Forum 2007</p>      
+              <div class ="icon-box" id = "sharedBox" style = "padding: 10px;">
+               <a href="#" id = "colorIcon" class="fa fa-facebook Icons"></a>
+               <a href="#" id = "colorIcon" class="fa fa-twitter Icons" ></a>
+               <a href="#" id = "colorIcon"><span class="fa fa-whatsapp"></span></a>
+               <a href="#" id = "colorIcon"><span class="fa fa-telegram"></span></a>  
+               <span id="backward" class = "btn" style = "font-size: 20px;margin-left: 80px;">&#x2190;</span>
+               <span id="forward"  class = "btn" style = "font-size: 20px;">&#x2192;</span>      
+                
+              </div>   
+          </div>
+        </div>      
+      </div>      <!-- rend of the second col in row 1 -->  
+      </div>       <!-- End of row 1 in section2 -->
+    </div>      
+    </div>    <!-- End of this section container tag--> 
+   </div>     <!--- end of Big container tag -->     
+    
+    
+    <script>
+        var counter = 1;
+        $('#forward').click(function(){
+            counter += 1;
+            if(counter >8) counter =1;
+            document.getElementById("swapImg").src = 'swich_photos/'+counter+'.jpg';
+        });
+        $('#backward').click(function(){
+            counter -= 1;
+            if(counter<1) counter =8;
+            document.getElementById("swapImg").src = 'swich_photos/'+counter+'.jpg';
+        });
+        
+    </script>
+</body>        
+</html>
+
