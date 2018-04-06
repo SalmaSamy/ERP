@@ -9,10 +9,11 @@
 }
 
 #sharedBox{
-    display: inline;
+    display: inline-block;
 }
 
 
+/***Nooor part****/
 .page4{
     color: #92856a;
     font-weight: bold;
@@ -20,7 +21,12 @@
 }
 
 .pragh{
-    font-size: 10px;
+    font-size: 12px;
+}
+
+.thumbnaiover {
+    background-color: gray; 
+    z-index: 1; /* Added Lower Z-Index Value */
 }
 
 .mycontent-right {
@@ -36,7 +42,6 @@
     font-size: 20px;
     color: black ; 
 }
-
 .icon-box{
     color: #92856a;
     font-size: 18px;
@@ -52,9 +57,169 @@
     color: #92856a;
     margin-right: 0px;   
 }
-
 .overlap{
-    opacity: 0.6;
     background-color: white ;
-    z-index: -1;
+    opacity: 0.8; 
+    margin-left:-55px; 
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #e1e3e4 ;  
 }
+.overlapup{
+    background-color: white ;
+    opacity: 0.9; 
+    margin-top:-25px; 
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #e1e3e4 ;  
+}
+/***end of noor part **/
+
+#colorIcon , .icons_color{
+    color: #92856a;
+    padding: 5px;
+}
+
+
+.assignHeightToCol{
+ height: 315px;    
+}
+
+.feb17{
+  font-weight: bold;
+  font-size: 12px;
+  color: #92856a;    
+}
+
+.navbar{
+ display: block;    
+}
+
+.navbar a{
+  color: #92856a;
+  margin-left: 15px;    
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.navbar a:hover{
+  color: #92856a;   
+}
+
+.smallImgcol{
+    height: 600px;
+}
+
+/* the end of section 2 page 1 */
+/* section 4 page 1 "home page"*/
+
+.imgController{
+    position: relative;
+}
+
+.textBottomInImg{
+    position: absolute;
+    bottom: -20px;
+    margin-left: 5px;
+    background-color: whitesmoke;
+    width:90%;
+    padding:10px;
+}
+
+.section4_page2_paragraph{
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+a i{
+    color:black;
+    float:right;
+    margin-right:10px;
+}
+
+.smallTextcol{
+    height: 375px;
+}
+
+.adjustColText{
+    padding: 20px;
+}
+
+/* the end of section 4 page 1 "home page" */
+
+/* Salma Part "Awards & Sons */
+.pragh{
+    font-size: 12px;
+}
+
+.headers_color{
+	color: #92856a;
+ 	font-weight: bold;
+}
+
+.col-md-2{
+	margin-right: 0px;
+  	margin-left: 0px;
+	padding-right: 0px;
+  	padding-left: 0px;
+}
+
+.box{
+	padding-left: 10px;
+}
+
+/* end of salma part */
+
+/* seif part "header*/
+.big
+{
+  position:absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+}
+.small
+{
+  position:absolute;
+  top: 25px;
+  left: 100px;
+  z-index: 2;
+}
+
+.small2
+{
+  position:absolute;
+  top: 25px;
+  right: 100px;
+  z-index: 2;
+}
+/* end of header */
+
+/*Ashrakat page 5 speeches section 2 */
+.transparant .thumbnail{
+    border: none; 
+    position: relative;
+}
+
+.transparant2 .thumbnail {
+    background-color: rgb(255,255,255,0.4);
+    margin-left:-50px; 
+}
+
+.transparant2 .thumbnail p{
+    font-size: 20px;
+    font-style: normal;
+    padding: 15px;
+}
+
+
+#swapImg{
+   min-width: 547px;
+   max-height: 364.72px;    
+}
+
+/* End of page 5 speeches section2 */
+>>>>>>> a019c56b6af47b7793e670ba26ff38a727037da0
