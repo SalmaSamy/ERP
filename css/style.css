@@ -21,8 +21,55 @@
 }
 
 #sharedBox{
-    display: inline;
+    display: inline-block;
 }
+
+
+/***Nooor part****/
+.page4{
+    color: #92856a;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.pragh{
+    font-size: 12px;
+}
+
+.thumbnaiover {
+    background-color: gray; 
+    z-index: 1; /* Added Lower Z-Index Value */
+}
+
+.mycontent-right {
+  font-family: Myriad Pro ;
+  font-weight: bold ;
+  font-size: 30px ; 
+  color: #92856a;
+  white-space: pre-wrap; 
+  border-right: 2px solid #92856a;
+}
+
+.title{
+    font-size: 20px;
+    color: black ; 
+}
+.icon-box{
+    color: #92856a;
+    font-size: 18px;
+}
+    
+.plus_icon{
+    color: #92856a;
+    font-size: 18px;
+    margin-right: 0px;
+}
+
+.toright{
+    color: #92856a;
+    margin-right: 0px;   
+}
+/***end of noor part **/
 
 
 /***Nooor part****/
@@ -145,6 +192,7 @@ a i{
 }
 
 /* the end of section 4 page 1 "home page" */
+
 /* Salma Part "Awards & Sons */
 .pragh{
     font-size: 12px;
@@ -167,5 +215,61 @@ a i{
 }
 
 /* end of salma part */
->>>>>>> 21ef7f72532c6a89d5060c8e8ded6b38de1de21f
 
+/* seif part "header*/
+.big
+{
+  position:absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+}
+.small
+{
+  position:absolute;
+  top: 25px;
+  left: 100px;
+  z-index: 2;
+}
+
+.small2
+{
+  position:absolute;
+  top: 25px;
+  right: 100px;
+  z-index: 2;
+}
+/* end of header */
+
+/*Ashrakat page 5 speeches section 2 */
+.transparant .thumbnail{
+    border: none; 
+    position: relative;
+}
+
+.transparant2 .thumbnail {
+    background-color: rgb(255,255,255,0.4);
+    margin-left:-50px; 
+}
+
+.transparant2 .thumbnail p{
+    font-size: 20px;
+    font-style: normal;
+    padding: 15px;
+}
+
+#swapImg{
+   min-width: 547px;
+   max-height: 364.72px;    
+}
+
+#counterValue , .transparant2 .thumbnail span{
+ color: #92856a;
+ font-weight: bold;
+}
+
+.transparant2 .thumbnail span{
+    font-size: 20px;
+    font-weight: normal;    
+}
+/* End of page 5 speeches section2 */
