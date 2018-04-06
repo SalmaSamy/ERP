@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* Ashrakat section2 page 1 */ 
 .section2_page2_row1_col1{
     color: #92856a;
@@ -7,7 +7,7 @@
 
 .page_2_paragraph1{
     font-size: 12px;
-=======
+}
 .section2_page2_row1_col1{
     color: #92856a;
     font-weight: bold;
@@ -15,18 +15,18 @@
 }
 
 .page_2_paragraph1{
-    font-size: 9px;
->>>>>>> 5972a4e254f82a17658c31541135ca758abf4f03
+    font-size: 12px;
+
 }
 
 #sharedBox{
     display: inline;
 }
 
-<<<<<<< HEAD
-#colorIcon{
+
+#colorIcon , .icons_color{
     color: #92856a;
-    padding: 4px;
+    padding: 5px;
 }
 
 
@@ -62,17 +62,10 @@
 }
 
 /* the end of section 2 page 1 */
-/* Salma Part "Awards & Sons */
-=======
->>>>>>> 5972a4e254f82a17658c31541135ca758abf4f03
-.pragh{
-    font-size: 10px;
-}
 
-.icons_color{
-	color: #92856a;
- 	font-weight: bold;
-	padding: 4px;
+/* Salma Part "Awards & Sons */
+.pragh{
+    font-size: 12px;
 }
 
 .headers_color{
@@ -90,8 +83,6 @@
 .box{
 	padding-left: 10px;
 }
-<<<<<<< HEAD
-/* end of salma part */
-=======
 
->>>>>>> 5972a4e254f82a17658c31541135ca758abf4f03
+/* end of salma part */
+
