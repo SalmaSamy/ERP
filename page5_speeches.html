@@ -1,0 +1,148 @@
+<html>
+    <head>
+     <link href="css/style.css" rel="stylesheet">
+     <link href = "css/bootstrap.min.css" rel ="stylesheet"> 
+     <script src="js/jquery.min.js"></script> 
+    <script src="js/photos.js"></script>    
+    <script src="js/handlebars-v3.0.3.js"></script>    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    </head>
+<body>   
+    <div class="container">    
+     <div class = "row">             <!-- row of tittles  -->
+      <div class = "col-md-offset-1 col-md-12">    
+       <h3 style = "font-weight: bold;">H.H.'S</h3>
+       <h3 class = "section2_page2_row1_col1">Image gallery </h3>
+      </div>
+     </div>              <!-- end row of tittles  -->  
+     <hr width = "15%" style = "float:left;margin-left: 80px;">
+        <br><br><br>
+    <div id = "speeches section2">  
+      <div class = "row">                   <!-- start of row1 in section2-->
+       <div class = "col-md-6 col-xs-6 col-md-offset-1">
+        <div class = "transparant"> 
+         <div class = "thumbnail">
+          <img id = "swapImg" src ="switch_photos/1.jpg">
+         </div>
+        </div>      
+       </div>
+      <div class = "col-md-3 col-xs-6" style="padding-top: 10px;">
+        <div class = "transparant2">
+          <div class = "thumbnail">
+              <p>The future, with its needs and challenges call upon us to embrark prepetual quest for alternative source of energy</p>
+            <hr>
+              <p><span id = 'counterValue'></span><span>&#10072;</span> From a speech delivered at the Student Forum 2007</p>     
+              <div class ="icon-box" id = "sharedBox" style = "padding: 10px;"> 
+                <a href="#" id = "colorIcon" class="fa fa-facebook Icons"></a>
+                <a href="#" id = "colorIcon" class="fa fa-twitter Icons" ></a>
+                <a href="#" id = "colorIcon"><span class="fa fa-whatsapp"></span></a>
+                <a href="#" id = "colorIcon"><span class="fa fa-telegram"></span></a> 
+               <div style = "float: right">      
+                <span id="backward" class = "btn" style = "font-size: 20px;margin-left: 50px;">&#x2190;</span>
+                <span id="forward"  class = "btn" style = "font-size: 20px;">&#x2192;</span>      
+               </div>
+              </div>   
+          </div>
+        </div>      
+      </div>      <!-- rend of the second col in row 1 -->  
+      </div>       <!-- End of row 1 in section2 -->
+          <!-- start of the second row -->
+          <div class = "row">
+           <div class = "col-md-offset-1 col-md-3 col-xs-12">   
+            <div class = "transparant3">  
+             <div class = "thumbnail">  
+              <img src="switch_photos/1.jpg">
+             </div>
+            </div>    
+            <div class = "transparant2">
+             <div class = "page5_sec2_2r">
+                 <p><span id = 'counterValue'>1/8</span><span>&#10072;</span>From the speech delivered at the student Forum  at 2007</p>
+             </div>
+            </div> 
+           </div>  
+            
+         <div class = "col-md-3 col-xs-12">   
+            <div class = "transparant3">  
+             <div class = "thumbnail">  
+              <img src="switch_photos/2.jpg">
+             </div>
+            </div>    
+            <div class = "transparant2">
+             <div class = "page5_sec2_2r">
+                 <p><span id = 'counterValue'>1/8</span><span>&#10072;</span>From the speech delivered at the student Forum  at 2007</p>
+             </div>
+            </div> 
+           </div>
+            
+            <div class = "col-md-3 col-xs-12">   
+            <div class = "transparant3">  
+             <div class = "thumbnail">  
+              <img src="switch_photos/3.jpg">
+             </div>
+            </div>    
+            <div class = "transparant2">
+             <div class = "page5_sec2_2r">
+                 <p><span id = 'counterValue'>1/8</span><span>&#10072;</span>From the speech delivered at the student Forum  at 2007</p>
+             </div>
+            </div> 
+           </div>        
+           <span id = "photosview">   <!-- start of the columns in second row -->
+           </span>
+          </div>    
+         <!-- end of the columns in second row -->
+         <!-- end of the second row -->
+        
+    </div>     <!-- end of section 2--> 
+   </div>     <!--- end of Big container tag -->     
+    
+    
+    
+    <!-- script of each photo -->
+     <script id="photos-template" type="text/x-handlebars-template">
+        {{#each photos}}
+          <div class = "col-md-3">
+            <div class = "transparant3">  
+            <div class = "thumbnail">  
+             <img src={{src}}>
+            </div>
+            </div>    
+            <div class = "transparant2">
+             <div class = "page5_sec2_2r">
+                 <p><span id = 'counterValue'>{{num}}/8</span><span>&#10072;</span> {{description}}</p>
+             </div>
+            </div>
+         </div>  
+        {{/each}}
+    </script>
+    
+    <script>
+        var counter = 1;
+        var photos = gallery.photos[0];
+        $( document ).ready(function() {    
+         var source   = $("#photos-template").html();
+         var template = Handlebars.compile(source);
+         document.getElementById("counterValue").innerHTML = counter+'/8';    
+         });
+
+        $('#forward').click(function(){"switch_photos/1.jpg"
+            counter += 1;
+            if(counter >8) counter =1;
+            document.getElementById("swapImg").src = 'switch_photos/'+counter+'.jpg';
+            document.getElementById("counterValue").innerHTML = counter+'/8';
+        });
+        $('#backward').click(function(){
+            counter -= 1;
+            if(counter<1) counter =8;
+            document.getElementById("swapImg").src = 'switch_photos/'+counter+'.jpg';
+            document.getElementById("counterValue").innerHTML = counter+'/8';
+        });
+        
+        $("loadmore").click(function(){
+            var html  = template(gallery);
+         $('#photosview').html(html);
+        });
+        
+    </script>
+</body>        
+</html>
+
