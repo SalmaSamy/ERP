@@ -258,10 +258,18 @@ a i{
     padding: 15px;
 }
 
-
 #swapImg{
    min-width: 547px;
    max-height: 364.72px;    
 }
 
+#counterValue , .transparant2 .thumbnail span{
+ color: #92856a;
+ font-weight: bold;
+}
+
+.transparant2 .thumbnail span{
+    font-size: 20px;
+    font-weight: normal;    
+}
 /* End of page 5 speeches section2 */
