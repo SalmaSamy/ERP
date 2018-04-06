@@ -192,6 +192,7 @@ a i{
 }
 
 /* the end of section 4 page 1 "home page" */
+
 /* Salma Part "Awards & Sons */
 .pragh{
     font-size: 12px;
@@ -230,6 +231,14 @@ a i{
   left: 100px;
   z-index: 2;
 }
+
+.small2
+{
+  position:absolute;
+  top: 25px;
+  right: 100px;
+  z-index: 2;
+}
 /* end of header */
 
 /*Ashrakat page 5 speeches section 2 */
@@ -249,10 +258,6 @@ a i{
     padding: 15px;
 }
 
-.arrows{
-    float:right;
-    padding-bottom: 5px;
-}
 
 #swapImg{
    min-width: 547px;
