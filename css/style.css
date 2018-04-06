@@ -1,3 +1,14 @@
+/* Ashrakat section2 page 1 */ 
+.section2_page2_row1_col1{
+    color: #92856a;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.page_2_paragraph1{
+    font-size: 12px;
+}
+
 .section2_page2_row1_col1{
     color: #92856a;
     font-weight: bold;
@@ -5,7 +16,8 @@
 }
 
 .page_2_paragraph1{
-    font-size: 9px;
+    font-size: 12px;
+
 }
 
 #sharedBox{
@@ -13,6 +25,7 @@
 }
 
 
+<<<<<<< HEAD
 .page4{
     color: #92856a;
     font-weight: bold;
@@ -56,4 +69,102 @@
     color: #92856a;
     margin-right: 0px;   
 }
+=======
+#colorIcon , .icons_color{
+    color: #92856a;
+    padding: 5px;
+}
+
+
+.assignHeightToCol{
+ height: 315px;    
+}
+
+.feb17{
+  font-weight: bold;
+  font-size: 12px;
+  color: #92856a;    
+}
+
+.navbar{
+ display: block;    
+}
+
+.navbar a{
+  color: #92856a;
+  margin-left: 15px;    
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.navbar a:hover{
+  color: #92856a;   
+}
+
+.smallImgcol{
+    height: 600px;
+}
+
+/* the end of section 2 page 1 */
+/* section 4 page 1 "home page"*/
+
+.imgController{
+    position: relative;
+}
+
+.textBottomInImg{
+    position: absolute;
+    bottom: -20px;
+    margin-left: 5px;
+    background-color: whitesmoke;
+    width:90%;
+    padding:10px;
+}
+
+.section4_page2_paragraph{
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+a i{
+    color:black;
+    float:right;
+    margin-right:10px;
+}
+
+.smallTextcol{
+    height: 375px;
+}
+
+.adjustColText{
+    padding: 20px;
+}
+
+/* the end of section 4 page 1 "home page" */
+/* Salma Part "Awards & Sons */
+.pragh{
+    font-size: 12px;
+}
+
+.headers_color{
+	color: #92856a;
+ 	font-weight: bold;
+}
+
+.col-md-2{
+	margin-right: 0px;
+  	margin-left: 0px;
+	padding-right: 0px;
+  	padding-left: 0px;
+}
+
+.box{
+	padding-left: 10px;
+}
+
+/* end of salma part */
+>>>>>>> 21ef7f72532c6a89d5060c8e8ded6b38de1de21f
 
