@@ -24,11 +24,6 @@
     font-size: 12px;
 }
 
-.thumbnaiover {
-    background-color: gray; 
-    z-index: 1; /* Added Lower Z-Index Value */
-}
-
 .mycontent-right {
   font-family: Myriad Pro ;
   font-weight: bold ;
@@ -73,11 +68,13 @@
     border-radius: 5px;
     border: 1px solid #e1e3e4 ;  
 }
-.incol{
+.overlapupphoto{ 
+    margin-top:-795px; 
 }
 .photo{
-    width: 94% ;
-    
+    width: 100% ;
+    height: 120%;
+    background-color: transparent; 
 }
 .colum1{
     width: 410px; 
@@ -91,6 +88,9 @@
     margin-top: -300px;
 }
 
+.up{
+    margin-top: -600px;
+}
 /***end of noor part **/
 
 #colorIcon , .icons_color{
@@ -141,7 +141,7 @@
     position: absolute;
     bottom: -20px;
     margin-left: 5px;
-    background-color: rgb(255,255,255,0.4);
+    background-color: whitesmoke;
     width:90%;
     padding:10px;
 }
@@ -217,10 +217,9 @@ a i{
 /* end of header */
 
 /*Ashrakat page 5 speeches section 2 */
-.transparant .thumbnail , .transparant3 .thumbnail{
+.transparant .thumbnail{
     border: none; 
     position: relative;
-    padding-bottom: 10px;
 }
 
 .transparant2 .thumbnail {
@@ -228,35 +227,10 @@ a i{
     margin-left:-50px; 
 }
 
-.transparant3 .thumbnail img{
-    min-height:206.73px;
-    min-width: 254.73px;
-}
-
-.transparant2 .page5_sec2_2r {
-    background-color: rgb(255,255,255,0.4);
-    position: absolute;
-    bottom: -5px;
-    border-bottom: 0.25px solid ghostwhite;
-    border-left: 0.25px solid ghostwhite;
-    border-right: 0.25px solid ghostwhite;
-    width: 85%;
-    margin-left: 7px;
-    padding:5px;
-}
-
-
 .transparant2 .thumbnail p{
     font-size: 20px;
     font-style: normal;
     padding: 15px;
-}
-
-.transparant2 .page5_sec2_2r p{
-    font-size: 12px;
-    font-weight: bold;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 #swapImg{
@@ -264,7 +238,10 @@ a i{
    max-height: 364.72px;    
 }
 
+<<<<<<< HEAD
 /* End of page 5 speeches section2 */
+>>>>>>> a019c56b6af47b7793e670ba26ff38a727037da0
+=======
 #counterValue , .transparant2 .thumbnail span{
  color: #92856a;
  font-weight: bold;
@@ -274,3 +251,4 @@ a i{
     font-size: 20px;
     font-weight: normal;    
 }
+/* End of page 5 speeches section2 */
