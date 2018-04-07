@@ -57,19 +57,34 @@
     border-radius: 5px;
     border: 1px solid #e1e3e4 ;  
 }
+<<<<<<< HEAD
+.overlapupphoto{ 
+    margin-top:-795px; 
+=======
+
 .overlapupphoto{ 
     margin-top:-795px; 
 }
+
+
+.incol{
+
+>>>>>>> 30e8a1e364e722a283cd4d49a8d6ab41cd58b845
+}
+
 .photo{
     width: 100% ;
     height: 120%;
     background-color: transparent; 
 }
+
 .colum1{
     width: 410px; 
     height: 300px;
     margin-left: 15px;
 }
+
+
 .colum2{
     width: 410px; 
     height: 490px;
@@ -131,6 +146,10 @@
     bottom: -20px;
     margin-left: 5px;
     background-color: whitesmoke;
+<<<<<<< HEAD
+=======
+    background-color: rgb(255,255,255,0.9);
+>>>>>>> 30e8a1e364e722a283cd4d49a8d6ab41cd58b845
     width:90%;
     padding:10px;
 }
@@ -181,30 +200,40 @@ a i{
 /* end of salma part */
 
 /* seif part "header*/
-.big
-{
-  position:absolute;
-  top: 10px;
-  left: 10px;
-  z-index: 1;
-}
-.small
-{
-  position:absolute;
-  top: 25px;
-  left: 100px;
-  z-index: 2;
+ .big
+	{
+		position:absolute;
+		top: 10px;
+		left: 10px;
+        width: 100%;
+        height: 60%;
+		z-index: 1;
+	}
+	.small
+	{
+		position:absolute;
+		top: 4%;
+		left: 20%;
+		z-index: 2;
+	}
+    
+    .small2
+	{
+		position:absolute;
+		top: 25px;
+		right: 100px;
+		z-index: 2;
+	}
+
+.headerThumbnail .thumbnail{
+    border: none;
 }
 
-.small2
-{
-  position:absolute;
-  top: 25px;
-  right: 100px;
-  z-index: 2;
+.headerThumbnail .thumbnail img{
+    max-height: 650px;
 }
+
 /* end of header */
-
 /*Ashrakat page 5 speeches section 2 */
 .transparant .thumbnail{
     border: none; 
@@ -216,6 +245,26 @@ a i{
     margin-left:-50px; 
 }
 
+<<<<<<< HEAD
+=======
+.transparant3 .thumbnail img{
+    min-height:206.73px;
+    min-width: 254.73px;
+}
+
+.transparant2 .page5_sec2_2r {
+    background-color: rgb(255,255,255,0.7);
+    position: absolute;
+    bottom: -5px;
+    border-bottom: 0.25px solid ghostwhite;
+    border-left: 0.25px solid ghostwhite;
+    border-right: 0.25px solid ghostwhite;
+    width: 85%;
+    margin-left: 7px;
+    padding:5px;
+}
+
+>>>>>>> 30e8a1e364e722a283cd4d49a8d6ab41cd58b845
 .transparant2 .thumbnail p{
     font-size: 20px;
     font-style: normal;
@@ -227,10 +276,7 @@ a i{
    max-height: 364.72px;    
 }
 
-<<<<<<< HEAD
 /* End of page 5 speeches section2 */
->>>>>>> a019c56b6af47b7793e670ba26ff38a727037da0
-=======
 #counterValue , .transparant2 .thumbnail span{
  color: #92856a;
  font-weight: bold;
