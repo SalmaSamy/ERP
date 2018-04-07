@@ -110,25 +110,26 @@
 
 .overlapupphoto{ 
     margin-top:-795px; 
-<<<<<<< HEAD
 }
-=======
 
 
->>>>>>> d749b5eb90e4865f97910a08ad1eb21618bdc686
 .incol{
 
 }
+
 .photo{
     width: 100% ;
     height: 120%;
     background-color: transparent; 
 }
+
 .colum1{
     width: 410px; 
     height: 300px;
     margin-left: 15px;
 }
+
+
 .colum2{
     width: 410px; 
     height: 490px;
@@ -241,30 +242,28 @@ a i{
 /* end of salma part */
 
 /* seif part "header*/
-.big
-{
+.big{
   position:absolute;
   top: 10px;
   left: 10px;
   z-index: 1;
 }
-.small
-{
+
+.small{
   position:absolute;
   top: 25px;
   left: 100px;
   z-index: 2;
 }
 
-.small2
-{
+.small2{
   position:absolute;
   top: 25px;
   right: 100px;
   z-index: 2;
 }
-/* end of header */
 
+/* end of header */
 /*Ashrakat page 5 speeches section 2 */
 .transparant .thumbnail{
     border: none; 
@@ -303,7 +302,6 @@ a i{
    min-width: 547px;
    max-height: 364.72px;    
 }
-
 
 /* End of page 5 speeches section2 */
 #counterValue , .transparant2 .thumbnail span{
