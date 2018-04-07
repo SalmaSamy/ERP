@@ -57,19 +57,13 @@
     border-radius: 5px;
     border: 1px solid #e1e3e4 ;  
 }
-<<<<<<< HEAD
-.overlapupphoto{ 
-    margin-top:-795px; 
-=======
 
 .overlapupphoto{ 
     margin-top:-795px; 
 }
 
-
-.incol{
-
->>>>>>> 30e8a1e364e722a283cd4d49a8d6ab41cd58b845
+.overlapupphoto{ 
+    margin-top:-795px; 
 }
 
 .photo{
@@ -101,7 +95,6 @@
     color: #92856a;
     padding: 5px;
 }
-
 
 .assignHeightToCol{
  height: 315px;    
@@ -146,10 +139,7 @@
     bottom: -20px;
     margin-left: 5px;
     background-color: whitesmoke;
-<<<<<<< HEAD
-=======
     background-color: rgb(255,255,255,0.9);
->>>>>>> 30e8a1e364e722a283cd4d49a8d6ab41cd58b845
     width:90%;
     padding:10px;
 }
@@ -200,30 +190,27 @@ a i{
 /* end of salma part */
 
 /* seif part "header*/
- .big
-	{
-		position:absolute;
-		top: 10px;
-		left: 10px;
+ .big{
+	position:absolute;
+	top: 10px;
+	left: 10px;
         width: 100%;
         height: 60%;
-		z-index: 1;
+	z-index: 1;
 	}
-	.small
-	{
-		position:absolute;
-		top: 4%;
-		left: 20%;
-		z-index: 2;
-	}
+.small{
+	position:absolute;
+	top: 4%;
+	left: 20%;
+	z-index: 2;
+}
     
-    .small2
-	{
-		position:absolute;
-		top: 25px;
-		right: 100px;
-		z-index: 2;
-	}
+.small2{
+	position:absolute;
+	top: 25px;
+	right: 100px;
+	z-index: 2;
+}
 
 .headerThumbnail .thumbnail{
     border: none;
@@ -245,8 +232,6 @@ a i{
     margin-left:-50px; 
 }
 
-<<<<<<< HEAD
-=======
 .transparant3 .thumbnail img{
     min-height:206.73px;
     min-width: 254.73px;
@@ -264,7 +249,6 @@ a i{
     padding:5px;
 }
 
->>>>>>> 30e8a1e364e722a283cd4d49a8d6ab41cd58b845
 .transparant2 .thumbnail p{
     font-size: 20px;
     font-style: normal;
