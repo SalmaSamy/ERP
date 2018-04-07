@@ -110,14 +110,11 @@
     margin-top:-25px; 
     padding: 15px;
     border-radius: 5px;
-<<<<<<< HEAD
     border: 1px solid #e1e3e4;  
-=======
     border: 1px solid #e1e3e4 ;  
 }
 .overlapupphoto{ 
   margin-top:-795px; 
->>>>>>> 795ba168fd2eeccea4f3b22ef1fcce2377811d6d
 }
 
 .overlapupSemony{
@@ -129,10 +126,6 @@
     border: 1px solid #e1e3e4;  
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 795ba168fd2eeccea4f3b22ef1fcce2377811d6d
 .overlapupphoto{ 
     margin-top:-795px; 
 }
@@ -158,7 +151,7 @@
 }
 
 .up{
-    margin-top: -575px;
+    margin-top: -50%;
 }
 /***end of noor part **/
 
@@ -260,27 +253,6 @@ a i{
 
 /* end of salma part */
 
-
-/* seif part "header*/
- .big{
-	position:absolute;
-	top: 10px;
-<<<<<<< HEAD
-	left: 10px;
-}
-/* seif part header and footer */
- .big{
-	position:absolute;
-	top: 10px;
-	left: 10px;
-        width: 100%;
-        height: 60%;
-	z-index: 1;
-}
-=======
-     left: 10px;
-}
-
 /* seif part header and footer */
  .big
 	{
@@ -291,38 +263,18 @@ a i{
         height: 60%;
 	    z-index: 1;
 	}
->>>>>>> 795ba168fd2eeccea4f3b22ef1fcce2377811d6d
 .small{
 	position:absolute;
 	top: 4%;
 	left: 20%;
 	z-index: 2;
 }
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> 795ba168fd2eeccea4f3b22ef1fcce2377811d6d
 .small2{
 	position:absolute;
 	top: 25px;
 	right: 100px;
 	z-index: 2;
-}
-
-<<<<<<< HEAD
-.small2{
-	position:absolute;
-	top: 25px;
-	right: 100px;
-	z-index: 2;
-=======
-    .small2{
-		position:absolute;
-		top: 25px;
-		right: 100px;
-		z-index: 2;
->>>>>>> 795ba168fd2eeccea4f3b22ef1fcce2377811d6d
 }
 
 #footSection{
@@ -351,28 +303,19 @@ a i{
     word-spacing: 100px;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 795ba168fd2eeccea4f3b22ef1fcce2377811d6d
 .headerThumbnail .thumbnail{
     border: none;
 }
-
-
-
 /* end of header & footer */
 /*Ashrakat page 5 speeches section 2 */
 .transparant .thumbnail{
     border: none; 
     position: relative;
 }
-
 .transparant2 .thumbnail {
     background-color: rgb(255,255,255,0.4);
     margin-left:-50px; 
 }
-
 .transparant3 .thumbnail img{
     min-height:206.73px;
     min-width: 254.73px;
@@ -412,3 +355,29 @@ a i{
     font-weight: normal;    
 }
 /* End of page 5 speeches section2 */
+
+/*Saif daimond*/
+.squareHug {
+  width: 300px;
+  height: 300px;
+  margin-top: 30%;
+  margin-left: 60%;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  overflow: hidden;
+}
+.picHug {
+  background: url(http://placekitten.com/g/150/150);
+  width: 500px;
+  height: 500px;
+  margin: -50%;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.textWithDiamond {
+    background:transparent;
+    margin-top:-30%;
+}
