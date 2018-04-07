@@ -42,39 +42,42 @@
     font-size: 18px;
 }   
 .overlap{
-    background-color: white ;
+    background-color: white;
     opacity: 0.8; 
     margin-left:-55px; 
+    padding: 25px;
+    border-radius: 5px;
+    border: 1px solid #e1e3e4;  
+}
+.overlapRight{
+    background-color: white;
+    opacity: 0.8; 
+    margin-right:-55px; 
     padding: 15px;
     border-radius: 5px;
-    border: 1px solid #e1e3e4 ;  
+    border: 1px solid #e1e3e4;
 }
 .overlapup{
-    background-color: white ;
+    background-color: white;
     opacity: 0.9; 
     margin-top:-25px; 
     padding: 15px;
     border-radius: 5px;
-    border: 1px solid #e1e3e4 ;  
+    border: 1px solid #e1e3e4;  
 }
-<<<<<<< HEAD
-=======
+
+.overlapupSemony{
+    background-color: white;
+    opacity: 0.9; 
+    margin-top:-75px; 
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #e1e3e4;  
+}
 
 .overlapupphoto{ 
     margin-top:-795px; 
 }
->>>>>>> 79cab43c9982edcb8539ae30c1388c561d47e463
-
-.overlapupphoto{ 
-    margin-top:-795px; 
-}
-
-<<<<<<< HEAD
-.overlapupphoto{ 
-    margin-top:-795px; 
-}
-=======
->>>>>>> 79cab43c9982edcb8539ae30c1388c561d47e463
 
 .photo{
     width: 100% ;
@@ -199,44 +202,41 @@ a i{
 
 /* end of salma part */
 
-<<<<<<< HEAD
+
 /* seif part "header*/
  .big{
 	position:absolute;
 	top: 10px;
 	left: 10px;
-=======
+}
 /* seif part header and footer */
- .big
-	{
-		position:absolute;
-		top: 10px;
-		left: 10px;
->>>>>>> 696afa95ecc049d45a01c651d4c3aaf1163189a8
+ .big{
+	position:absolute;
+	top: 10px;
+	left: 10px;
         width: 100%;
         height: 60%;
 	z-index: 1;
-	}
+}
 .small{
 	position:absolute;
 	top: 4%;
 	left: 20%;
 	z-index: 2;
 }
-    
-<<<<<<< HEAD
+
 .small2{
 	position:absolute;
 	top: 25px;
 	right: 100px;
 	z-index: 2;
 }
-=======
-    .small2{
-		position:absolute;
-		top: 25px;
-		right: 100px;
-		z-index: 2;
+
+.small2{
+	position:absolute;
+	top: 25px;
+	right: 100px;
+	z-index: 2;
 }
 
 .footer {
@@ -263,8 +263,6 @@ a i{
 .footer_style {
     word-spacing: 100px;
 }
-
->>>>>>> 696afa95ecc049d45a01c651d4c3aaf1163189a8
 
 .headerThumbnail .thumbnail{
     border: none;
