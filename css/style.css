@@ -1,14 +1,3 @@
-/* Ashrakat section2 page 1 */ 
-.section2_page2_row1_col1{
-    color: #92856a;
-    font-weight: bold;
-    display: inline-block;
-}
-
-.page_2_paragraph1{
-    font-size: 12px;
-}
-
 .section2_page2_row1_col1{
     color: #92856a;
     font-weight: bold;
@@ -16,8 +5,7 @@
 }
 
 .page_2_paragraph1{
-    font-size: 12px;
-
+    font-size: 9px;
 }
 
 #sharedBox{
@@ -69,53 +57,40 @@
     color: #92856a;
     margin-right: 0px;   
 }
-/***end of noor part **/
-
-
-/***Nooor part****/
-.page4{
-    color: #92856a;
-    font-weight: bold;
-    font-size: 20px;
+.overlap{
+    background-color: white ;
+    opacity: 0.8; 
+    margin-left:-55px; 
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #e1e3e4 ;  
 }
-
-.pragh{
-    font-size: 10px;
+.overlapup{
+    background-color: white ;
+    opacity: 0.9; 
+    margin-top:-25px; 
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #e1e3e4 ;  
 }
-
-.thumbnaiover {
-    background-color: gray; 
-    z-index: 1; /* Added Lower Z-Index Value */
+.incol{
 }
-
-.mycontent-right {
-  font-family: Myriad Pro ;
-  font-weight: bold ;
-  font-size: 30px ; 
-  color: #92856a;
-  white-space: pre-wrap; 
-  border-right: 2px solid #92856a;
-}
-
-.title{
-    font-size: 20px;
-    color: black ; 
-}
-.icon-box{
-    color: #92856a;
-    font-size: 18px;
-}
+.photo{
+    width: 94% ;
     
-.plus_icon{
-    color: #92856a;
-    font-size: 18px;
-    margin-right: 0px;
+}
+.colum1{
+    width: 410px; 
+    height: 300px;
+    margin-left: 15px;
+}
+.colum2{
+    width: 410px; 
+    height: 490px;
+    margin-left:550px;
+    margin-top: -300px;
 }
 
-.toright{
-    color: #92856a;
-    margin-right: 0px;   
-}
 /***end of noor part **/
 
 #colorIcon , .icons_color{
@@ -166,7 +141,7 @@
     position: absolute;
     bottom: -20px;
     margin-left: 5px;
-    background-color: whitesmoke;
+    background-color: rgb(255,255,255,0.4);
     width:90%;
     padding:10px;
 }
@@ -242,9 +217,10 @@ a i{
 /* end of header */
 
 /*Ashrakat page 5 speeches section 2 */
-.transparant .thumbnail{
+.transparant .thumbnail , .transparant3 .thumbnail{
     border: none; 
     position: relative;
+    padding-bottom: 10px;
 }
 
 .transparant2 .thumbnail {
@@ -252,10 +228,35 @@ a i{
     margin-left:-50px; 
 }
 
+.transparant3 .thumbnail img{
+    min-height:206.73px;
+    min-width: 254.73px;
+}
+
+.transparant2 .page5_sec2_2r {
+    background-color: rgb(255,255,255,0.4);
+    position: absolute;
+    bottom: -5px;
+    border-bottom: 0.25px solid ghostwhite;
+    border-left: 0.25px solid ghostwhite;
+    border-right: 0.25px solid ghostwhite;
+    width: 85%;
+    margin-left: 7px;
+    padding:5px;
+}
+
+
 .transparant2 .thumbnail p{
     font-size: 20px;
     font-style: normal;
     padding: 15px;
+}
+
+.transparant2 .page5_sec2_2r p{
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #swapImg{
@@ -263,6 +264,7 @@ a i{
    max-height: 364.72px;    
 }
 
+/* End of page 5 speeches section2 */
 #counterValue , .transparant2 .thumbnail span{
  color: #92856a;
  font-weight: bold;
@@ -272,4 +274,3 @@ a i{
     font-size: 20px;
     font-weight: normal;    
 }
-/* End of page 5 speeches section2 */
