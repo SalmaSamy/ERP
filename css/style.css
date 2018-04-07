@@ -57,30 +57,18 @@
     border-radius: 5px;
     border: 1px solid #e1e3e4 ;  
 }
-<<<<<<< HEAD
-
 .overlapupphoto{ 
   margin-top:-795px; 
-=======
-<<<<<<< HEAD
-=======
-
-.overlapupphoto{ 
-    margin-top:-795px; 
 }
->>>>>>> 79cab43c9982edcb8539ae30c1388c561d47e463
 
 .overlapupphoto{ 
     margin-top:-795px; 
 }
 
-<<<<<<< HEAD
+
 .overlapupphoto{ 
     margin-top:-795px; 
->>>>>>> 2ac6318d5ac75f84ff74bf19c36ef9c25e38c42c
 }
-=======
->>>>>>> 79cab43c9982edcb8539ae30c1388c561d47e463
 
 .photo{
     width: 100% ;
@@ -210,7 +198,7 @@ a i{
  .big{
 	position:absolute;
 	top: 10px;
-	left: 10px;
+     left: 10px;}
 =======
 /* seif part header and footer */
  .big
