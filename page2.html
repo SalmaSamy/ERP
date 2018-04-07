@@ -6,11 +6,11 @@
         <link href="css/style.css" rel="stylesheet">
         <link href = "css/bootstrap.min.css" rel ="stylesheet"> 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">   
-        
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     
     <body>
+    
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-md-offset-1">
@@ -212,80 +212,35 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-2 col-md-offset-2">
-                    <div class="thumbnail">
-                        <div class="box">
-                            <h4 class="headers_color">LaLa</h4>
-                            <p>           
-                            I knew it when I met him
-                            I loved him when I left him
-                            Got me feelin' like, Ooh-ooh-ooh
-                            </p>
-                           <a href="#" class="icons_color"><span  class="fa fa-facebook-official"></span></a>
-                            <a href="#" class="icons_color"><span class="fa fa-twitter"></span></a>
-                            <a href="#" class="icons_color"><span class="fa fa-whatsapp"></span></a>
-                            <a href="#" class="icons_color"><span class="fa fa-telegram"></span></a>
-                            <a href="#" style = "float: right;" class="material-icons plus_icon">add_circle_outline</a>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div class="thumbnail">
-                        <div class="box">
-                            <h4 class="headers_color">LaLa</h4>
-                            <p>           
-                             I knew it when I met him
-                             I loved him when I left him
-                             Got me feelin' like, Ooh-ooh-ooh
-                            </p>
-                            <a href="#" class="icons_color"><span  class="fa fa-facebook-official"></span></a>
-                            <a href="#" class="icons_color"><span class="fa fa-twitter"></span></a>
-                            <a href="#" class="icons_color"><span class="fa fa-whatsapp"></span></a>
-                            <a href="#" class="icons_color"><span class="fa fa-telegram"></span></a>
-                            <a href="#" style = "float: right;" class="material-icons plus_icon">add_circle_outline</a>
-                        </div>
-                    </div>
-                </div>
-                 <div class="col-md-2">
-                    <div class="thumbnail">
-                        <div class="box">
-                            <h4 class="headers_color">LaLa</h4>
-                            <p>           
-                             I knew it when I met him
-                             I loved him when I left him
-                             Got me feelin' like, Ooh-ooh-ooh
-                            </p>
-                            <a href="#" class="icons_color"><span  class="fa fa-facebook-official"></span></a>
-                            <a href="#" class="icons_color"><span class="fa fa-twitter"></span></a>
-                            <a href="#" class="icons_color"><span class="fa fa-whatsapp"></span></a>
-                            <a href="#" class="icons_color"><span class="fa fa-telegram"></span></a>
-                            <a href="#" style = "float: right;" class="material-icons plus_icon">add_circle_outline</a>
-
-                        </div>
-                    </div>
-                </div>
-                 <div class="col-md-2">
-                    <div class="thumbnail">
-                        <div class="box">
-                            <h4 class="headers_color">LaLa</h4>
-                            <p>           
-                             I knew it when I met him
-                             I loved him when I left him
-                             Got me feelin' like, Ooh-ooh-ooh
-                            </p>
-                            <a href="#" class="icons_color"><span  class="fa fa-facebook-official"></span></a>
-                            <a href="#" class="icons_color"><span class="fa fa-twitter"></span></a>
-                            <a href="#" class="icons_color"><span class="fa fa-whatsapp"></span></a>
-                            <a href="#" class="icons_color"><span class="fa fa-telegram"></span></a>
-                            <a href="#" style = "float: right;" class="material-icons plus_icon">add_circle_outline</a>
-                        </div>
-                    </div>
-                </div>
-                
+            <div class="row" id="box">
             </div>
         </div>
 
     </body>
+    
+     <script>
+        function createBox(){
+            var oneBox = "<div class=\"col-md-2\">"+
+                             "<div class=\"thumbnail\">"+
+                                "<div class=\"box\">"+
+                                    "<h4 class=\"headers_color\">LaLa</h4>"+
+                                    "<p>"+
+                                     "I knew it when I met him"+
+                                     "I loved him when I left him"+
+                                     "Got me feelin' like, Ooh-ooh-ooh"+
+                                    "</p>"+
+                                     "<a href=\"#\" class=\"icons_color\"><span  class=\"fa fa-facebook-official\"></span></a>"+
+                                    "<a href=\"#\" class=\"icons_color\"><span class=\"fa fa-twitter\"></span></a>"+
+                                    "<a href=\"#\" class=\"icons_color\"><span class=\"fa fa-whatsapp\"></span></a>"+
+                                    "<a href=\"#\" class=\"icons_color\"><span class=\"fa fa-telegram\"></span></a>"+
+                                    "<a href=\"#\" style=\"float: right;\" class=\"material-icons plus_icon\">add_circle_outline</a>" +
+                                "</div> " +
+                            "</div> " +
+                         "</div>";
+            var fillBox = "<div class=\"col-md-2\"></div>";
+            for(var i=0 ; i<4 ; i+=1) fillBox += oneBox;
+            document.getElementById("box").innerHTML = fillBox;
+        }
+        createBox();
+    </script>
 </html>
