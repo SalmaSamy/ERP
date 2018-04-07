@@ -57,19 +57,9 @@
     border-radius: 5px;
     border: 1px solid #e1e3e4 ;  
 }
-<<<<<<< HEAD
-.overlapupphoto{ 
-    margin-top:-795px; 
-=======
 
 .overlapupphoto{ 
-    margin-top:-795px; 
-}
-
-
-.incol{
-
->>>>>>> 30e8a1e364e722a283cd4d49a8d6ab41cd58b845
+  margin-top:-795px; 
 }
 
 .photo{
@@ -146,10 +136,7 @@
     bottom: -20px;
     margin-left: 5px;
     background-color: whitesmoke;
-<<<<<<< HEAD
-=======
     background-color: rgb(255,255,255,0.9);
->>>>>>> 30e8a1e364e722a283cd4d49a8d6ab41cd58b845
     width:90%;
     padding:10px;
 }
@@ -245,8 +232,6 @@ a i{
     margin-left:-50px; 
 }
 
-<<<<<<< HEAD
-=======
 .transparant3 .thumbnail img{
     min-height:206.73px;
     min-width: 254.73px;
@@ -264,7 +249,6 @@ a i{
     padding:5px;
 }
 
->>>>>>> 30e8a1e364e722a283cd4d49a8d6ab41cd58b845
 .transparant2 .thumbnail p{
     font-size: 20px;
     font-style: normal;
