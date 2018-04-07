@@ -267,6 +267,14 @@ a i{
 		z-index: 2;
 	}
 
+.headerThumbnail .thumbnail{
+    border: none;
+}
+
+.headerThumbnail .thumbnail img{
+    max-height: 650px;
+}
+
 /* end of header */
 /*Ashrakat page 5 speeches section 2 */
 .transparant .thumbnail{
