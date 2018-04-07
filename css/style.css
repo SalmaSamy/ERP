@@ -107,13 +107,13 @@
     border-radius: 5px;
     border: 1px solid #e1e3e4 ;  
 }
-<<<<<<< HEAD
+
 .overlapupphoto{ 
     margin-top:-795px; 
-=======
+
 
 .incol{
->>>>>>> 32d7e82dfa94a0913f443b58213684a58938cb52
+
 }
 .photo{
     width: 100% ;
@@ -185,11 +185,8 @@ text-decoration: none;
     position: absolute;
     bottom: -20px;
     margin-left: 5px;
-<<<<<<< HEAD
     background-color: whitesmoke;
-=======
     background-color: rgb(255,255,255,0.9);
->>>>>>> 32d7e82dfa94a0913f443b58213684a58938cb52
     width:90%;
     padding:10px;
 }
@@ -275,8 +272,6 @@ a i{
     margin-left:-50px; 
 }
 
-<<<<<<< HEAD
-=======
 .transparant3 .thumbnail img{
     min-height:206.73px;
     min-width: 254.73px;
@@ -294,8 +289,6 @@ a i{
     padding:5px;
 }
 
-
->>>>>>> 32d7e82dfa94a0913f443b58213684a58938cb52
 .transparant2 .thumbnail p{
     font-size: 20px;
     font-style: normal;
@@ -307,10 +300,8 @@ a i{
    max-height: 364.72px;    
 }
 
-<<<<<<< HEAD
+
 /* End of page 5 speeches section2 */
->>>>>>> a019c56b6af47b7793e670ba26ff38a727037da0
-=======
 #counterValue , .transparant2 .thumbnail span{
  color: #92856a;
  font-weight: bold;
