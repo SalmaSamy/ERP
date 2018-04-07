@@ -241,7 +241,7 @@ a i{
 
 /* end of salma part */
 
-/* seif part "header*/
+/* seif part header and footer */
  .big
 	{
 		position:absolute;
@@ -259,13 +259,38 @@ a i{
 		z-index: 2;
 	}
     
-    .small2
-	{
+    .small2{
 		position:absolute;
 		top: 25px;
 		right: 100px;
 		z-index: 2;
-	}
+}
+
+.footer {
+    margin-left: 45px;
+    left: 0;
+    bottom: 0;
+    background-color: #191d26;
+    color: white;
+    height: 40px;
+    max-width: 1250px;
+    text-align: center;
+    padding-top: 1em;
+    word-spacing: 30px;
+}
+.whiteAnchor{
+    color: white;
+}
+.aqAnchor {
+    color: #92856a;
+}
+.footer_symbols {
+    bottom: 60px;
+}
+.footer_style {
+    word-spacing: 100px;
+}
+
 
 .headerThumbnail .thumbnail{
     border: none;
@@ -275,7 +300,7 @@ a i{
     max-height: 650px;
 }
 
-/* end of header */
+/* end of header & footer */
 /*Ashrakat page 5 speeches section 2 */
 .transparant .thumbnail{
     border: none; 
