@@ -13,7 +13,7 @@
       <div class="col-md-12">
       <div class = "headerThumbnail">      
        <div class = "thumbnail">
-         <img  src="photos/02%20Biography/Header.png" align="middle">
+         <img  id = "swapHImg" src="header_photos/1.jpg" align="middle">
     
          <img class="small" src="photos/Logo.png" width="50">
         
@@ -291,16 +291,64 @@
   
  </div>     <!--- end of container tag -->
     
+    
+    <!--  footer section --->
+      <div id = "footSection">
+     <div class = "container">    
+      <div class = "row">
+        <div class="col-md-2 col-md-offset-2 col-xs-3">
+         <img src="photos/Logo.png" width="100">
+        </div>
+
+        <div class="col-md-2 headers_color col-xs-3">
+         <p> Social</p>
+            <a href="#" class="icons_color"><span  class="fa fa-facebook-official"></span></a>
+            <a href="#" class="icons_color"><span class="fa fa-twitter"></span></a>
+            <a href="#" class="icons_color"><span class="fa fa-whatsapp"></span></a> 
+            <a href="#" class="icons_color"><span class="fa fa-telegram"></span></a>
+        </div>
+        
+        <div class="col-md-2 headers_color col-xs-3">
+         <p> Mobile App</p>
+            <a href="#" class="icons_color"><span class="fa fa-android"></span></a> 
+            <a href="#" class="icons_color"><span class="fa fa-apple"></span></a>
+        </div>
+        
+         <div class="col-md-2 headers_color col-xs-3">
+             <div class="icons_color" style="font-size:11px;"><span class="fa fa-star"></span>
+                 <br><br>copyrighs@2016 Crown Prince Court Emirate of Abu Dhabi</div>
+        </div>
+    </div>
+    </div>
+   
+    <div class="footer">  
+      <a href="#" class="whiteAnchor"> Bio</a>
+      <a href="#" class="aqAnchor"> Gallary</a>
+      <a href="#" class="whiteAnchor"> News</a>
+      <a href="#" class="whiteAnchor"> Contacts</a>
+     </div>   
+    </div>
+    <!-- end of footer section-->
+    
     <script>
-        var count =1;
+        var countswitch = 1;
+        var countheaders = 1;
         function swap(){
             count += 1;
             if(count > 8) count = 1;
             document.getElementById("swapImg").src = 'switch_photos/'+count+'.jpg';
             document.getElementById("counterValue").innerHTML = count+'/8';
         }
+        
+        function swapheaders(){
+            countheaders += 1;
+            if(countheaders > 5) countheaders = 1;
+            document.getElementById("swapHImg").src = 'header_photos/'+countheaders+'.jpg';
+        }
+        
         $(document).ready(function(){
 		setInterval(function(){ swap() }, 2000);
+        setInterval(function(){ swapheaders() }, 2000);    
         });
     </script>
 </body> 
