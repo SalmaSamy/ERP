@@ -1,18 +1,56 @@
+/* Ashrakat section 2 page1*/
 .section2_page2_row1_col1{
     color: #92856a;
     font-weight: bold;
     background-color: transparent;
 }
 
+.thumbnailp1sec1row1 .thumbnail , .thumbnailp1sec1row2 .thumbnail {
+    position: relative;
+    border: none;
+}
+
+.thumbnailp1sec1row1 .paragraphoverlap{
+    background-color: rgb(255,255,255,0.7);
+    position: absolute;
+    padding: 10px;
+    bottom: -220px;
+    width:90%;
+    margin-left: 18px;
+}
+
+.thumbnailp1sec1row1 .childtext{
+    background-color: rgb(255,255,255,0.7);
+    position: absolute;
+    padding: 10px;
+    width:97%;
+    bottom: -40px;
+    margin-left: 7px;
+}
+.thumbnailp1sec1row2 .paragraphoverlap{
+    background-color: rgb(255,255,255,0.7);
+    position: absolute;
+    padding: 10px;
+    bottom: -369px;
+    width:90%;
+    margin-left: 8px;
+}
+
+.hline{ 
+  width:100%;
+  height:1px;
+  background: #92856a;
+}
+
 .page_2_paragraph1{
-    font-size: 9px;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 #sharedBox{
     display: inline-block;
 }
-
-
+/* end of section 2 page1*/
 /***Nooor part****/
 .page4{
     color: #92856a;
@@ -43,9 +81,10 @@
 }
     
 .plus_icon{
-    color: #92856a;
+    color: black;
     font-size: 18px;
     margin-right: 0px;
+    
 }
 
 .toright{
@@ -68,8 +107,13 @@
     border-radius: 5px;
     border: 1px solid #e1e3e4 ;  
 }
+<<<<<<< HEAD
 .overlapupphoto{ 
     margin-top:-795px; 
+=======
+
+.incol{
+>>>>>>> 32d7e82dfa94a0913f443b58213684a58938cb52
 }
 .photo{
     width: 100% ;
@@ -98,7 +142,6 @@
     padding: 5px;
 }
 
-
 .assignHeightToCol{
  height: 315px;    
 }
@@ -122,8 +165,9 @@
   font-size: 14px;
 }
 
-.navbar a:hover{
-  color: #92856a;   
+.navbar a:hover , .icon_box a:hover , .plus_icon:hover{
+  color: #92856a;
+text-decoration: none;    
 }
 
 .smallImgcol{
@@ -141,7 +185,11 @@
     position: absolute;
     bottom: -20px;
     margin-left: 5px;
+<<<<<<< HEAD
     background-color: whitesmoke;
+=======
+    background-color: rgb(255,255,255,0.9);
+>>>>>>> 32d7e82dfa94a0913f443b58213684a58938cb52
     width:90%;
     padding:10px;
 }
@@ -223,10 +271,31 @@ a i{
 }
 
 .transparant2 .thumbnail {
-    background-color: rgb(255,255,255,0.4);
+    background-color: rgb(255,255,255,0.7);
     margin-left:-50px; 
 }
 
+<<<<<<< HEAD
+=======
+.transparant3 .thumbnail img{
+    min-height:206.73px;
+    min-width: 254.73px;
+}
+
+.transparant2 .page5_sec2_2r {
+    background-color: rgb(255,255,255,0.7);
+    position: absolute;
+    bottom: -5px;
+    border-bottom: 0.25px solid ghostwhite;
+    border-left: 0.25px solid ghostwhite;
+    border-right: 0.25px solid ghostwhite;
+    width: 85%;
+    margin-left: 7px;
+    padding:5px;
+}
+
+
+>>>>>>> 32d7e82dfa94a0913f443b58213684a58938cb52
 .transparant2 .thumbnail p{
     font-size: 20px;
     font-style: normal;
