@@ -1,0 +1,213 @@
+<html>
+ <head>
+   <link href="css/style.css" rel="stylesheet">
+   <link href = "css/bootstrap.min.css" rel ="stylesheet">   
+   <script src="js/jquery.min.js"></script>
+   <script src="js/positions.js"></script>
+   <script src="js/handlebars-v3.0.3.js"></script>       
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">       
+ </head>
+
+ <body>
+     
+    <!-- header section --> 
+  <div id = "header">
+     <img  id = "swapHImg" src="header_photos/2.jpg">
+     <img class="small" src="photos/Logo.png" width="120">
+      
+      <div class = "small2">
+        <a href="#" class="icons_color"><span  class="fa fa-facebook-official"></span></a>
+        <a href="#" class="icons_color"><span class="fa fa-twitter"></span></a>
+        <a href="#" class="icons_color"><span class="fa fa-instagram"></span></a> 
+        <a href="#" class="icons_color"><span class="fa fa-navicon"></span></a>
+      </div>
+  </div>   
+    <!-- end of header section -->
+     
+     
+     <!-- the heart of the page  "the big container"-->
+    <div class = "container">
+     <!-- section postions -->    
+      <div id = "section3">
+       <div class = "row">
+        <div id = "mainPositions">
+        </div>
+        <div id = "reqPositions">
+        </div>
+        <div id = "loadmore_positions">
+        </div>   
+       </div>
+         
+    <center>     
+       <span class = "btn" id = "loadmore">&#9670;</span>
+       <p style = "color: #92856a">load more</p>     
+    </center>       
+      </div>
+     <!--end of section positions -->    
+    </div> 
+     
+     <!-- end of the big container -->
+     
+     <!-- footer section -->
+     <div id ="foot_section">
+        <div class = "container">
+          <div class = "row">
+            <div class = "col-md-offset-2 col-md-2 col-xs-3">
+                <img src="photos/Logo.png" width="100">
+            </div>
+            <div class = "col-md-2 col-xs-2">
+             <p class = "headers_color"> Social</p>
+             <a href="#" class="icons_color"><span  class="fa fa-facebook-official"></span></a>
+             <a href="#" class="icons_color"><span class="fa fa-twitter"></span></a>
+             <a href="#" class="icons_color"><span class="fa fa-whatsapp"></span></a> 
+             <a href="#" class="icons_color"><span class="fa fa-telegram"></span></a>
+            </div> 
+            <div class = "col-md-2 col-xs-2">
+             <p class = "headers_color"> Mobile App</p>
+             <a href="#" class="icons_color"><span class="fa fa-android"></span></a> 
+             <a href="#" class="icons_color"><span class="fa fa-apple"></span></a>
+            </div> 
+            <div class="col-md-2 headers_color col-xs-3">
+              <div class="icons_color" style="font-size:11px;"><span class="fa fa-star"></span>
+              <br><br>copyrighs@2016 Crown Prince Court Emirate of Abu Dhabi</div>
+            </div>    
+          </div>  
+        </div>
+        
+      <div class="footer">  
+       <a href="#" class="whiteAnchor"> Bio</a>
+       <a href="#" class="aqAnchor"> Gallary</a>
+       <a href="#" class="whiteAnchor"> News</a>
+       <a href="#" class="whiteAnchor"> Contacts</a>
+     </div>    
+         
+    </div>
+    <!-- the end of the footer section -->
+
+     
+     
+ <script id="mainPositions-template" type="text/x-handlebars-template">
+  {{#each main_positions}}
+     <div class = "col-md-6 col-xs-6">
+      <div class ="noborder">    
+        <div class ="thumbnail">
+         <img src = {{img_src}}>    
+           <div class = "thumbnail">      
+            <h3 class = "headers_color">{{title}}</h3>
+            <br>
+            <h6 class = "hline"></h6>
+            <br>
+            <p class ="page_2_paragraph1"> {{description}}</p>
+            <br>
+             <p style = "font-size: 14px; font-weight: bold"> 17 February 2016</p>
+             <div class ="icon-box" id = "sharedBox">
+				<a href="#" id = "colorIcon" class="fa fa-facebook Icons"></a>
+                <a href="#" id = "colorIcon" class="fa fa-twitter Icons" ></a>
+                <a href="#" id ="colorIcon"><span class="fa fa-whatsapp"></span></a>
+                <a href="#" id ="colorIcon"><span class="fa fa-telegram"></span></a>
+                <a href="#" style = "float: right;" class="material-icons plus_icon">add_circle_outline</a>
+            </div>     
+          </div>
+        </div>
+       </div>       
+      </div>
+ {{/each}}
+</script>
+ 
+ <script  id="reqPositions-template" type="text/x-handlebars-template">
+   {{#each position_items}}
+     {{#compare num "3"}}
+     <div class = "col-md-4">
+        <div  style="min-height: 370px;"> 
+          <h3 class = "headers_color">{{title}}</h3>
+          <h6 class = "hline"></h6>
+          <p class ="page_2_paragraph1"> {{description}}</p>
+          <br>   
+          <p style = "font-size: 14px; font-weight: bold"> 17 February 2016</p>
+          <div class ="icon-box" id = "sharedBox">
+           <a href="#" id = "colorIcon" class="fa fa-facebook Icons"></a>
+           <a href="#" id = "colorIcon" class="fa fa-twitter Icons" ></a>
+           <a href="#" id ="colorIcon"><span class="fa fa-whatsapp"></span></a>
+           <a href="#" id ="colorIcon"><span class="fa fa-telegram"></span></a>
+           <a href="#" style = "float: right;" class="material-icons plus_icon">add_circle_outline</a>
+          </div>
+        </div>
+      </div>
+     {{/compare}}
+    {{/each}}
+ </script>
+     
+ <script  id="morePositions-template" type="text/x-handlebars-template">
+   {{#each position_items}}
+     {{#morethan num "3"}}
+     <div class = "col-md-4">
+      <h3 class = "headers_color">{{title}}</h3>
+      <h6 class = "hline"></h6>
+      <p class ="page_2_paragraph1"> {{description}}</p>
+      <br>   
+      <p style = "font-size: 14px; font-weight: bold"> 17 February 2016</p>
+      <div class ="icon-box" id = "sharedBox">
+       <a href="#" id = "colorIcon" class="fa fa-facebook Icons"></a>
+       <a href="#" id = "colorIcon" class="fa fa-twitter Icons" ></a>
+       <a href="#" id ="colorIcon"><span class="fa fa-whatsapp"></span></a>
+       <a href="#" id ="colorIcon"><span class="fa fa-telegram"></span></a>
+       <a href="#" style = "float: right;" class="material-icons plus_icon">add_circle_outline</a>
+      </div>
+     </div>
+     {{/morethan}}
+    {{/each}}
+ </script>          
+     
+ <script>
+     var countheaders = 1;
+      function swapheaders(){
+         countheaders += 1;
+         if(countheaders > 5) countheaders = 1;
+         document.getElementById("swapHImg").src = 'header_photos/'+countheaders+'.jpg';
+      }
+      
+      $(document).ready(function(){
+         setInterval(function(){ swapheaders() }, 2000);  
+          
+          // Modeling main positions script
+         var source   = $("#mainPositions-template").html();
+         var template = Handlebars.compile(source);
+         var html  = template(positions);
+         $('#mainPositions').html(html);
+         
+        // Modeling other positions "the first 3" script
+         source   = $("#reqPositions-template").html();
+         template = Handlebars.compile(source);
+         html  = template(positions);
+         $('#reqPositions').html(html); 
+          
+      });
+     
+     // modeling and display more postions
+      $("#loadmore").click(function(){
+         var source = $("#morePositions-template").html();
+         var temp = Handlebars.compile(source);  
+         var html  = temp(positions);
+         $('#loadmore_positions').html(html); 
+        });
+     
+      Handlebars.registerHelper('compare', function (param , value , options){
+         if(param <= value){
+             return options.fn(this);
+         }
+          return options.inverse(this);          
+      });
+     
+     Handlebars.registerHelper('morethan', function (param , value , options){
+         if(param <= value){
+          return options.inverse(this); 
+         }
+         return options.fn(this); 
+          
+      });
+     
+ </script>     
+ </body>
+    
+</html>

@@ -1,6 +1,6 @@
 var gallery = {
    "photos" : [
- /*   {
+    {
     num:"1",   
     src : "switch_photos/1.jpg",				
     description : "From the speech delivered at the student Forum  at 2007"
@@ -15,7 +15,6 @@ var gallery = {
     src : "switch_photos/3.jpg",
     description : "From the speech delivered at the student Forum  at 2007"
     }, 
-    */
     {
     num:"4",     
     src: "switch_photos/4.jpg",
