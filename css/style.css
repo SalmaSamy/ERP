@@ -1,4 +1,4 @@
-/* Ashrakat section 2 page1*/
+/* Ashrakat section1 page1*/
 .section2_page2_row1_col1{
     color: #92856a;
     font-weight: bold;
@@ -38,7 +38,6 @@
   margin-top: -20px;
 }
 
-
 .thumbnail .thumbclone{
     margin-top:-10px;
 }
@@ -68,9 +67,13 @@
     font-weight: bold;
 }
 
-#colorIcon , .icons_color{
+#colorIcon , .icons_color , .icons_colorCross{
     color: #92856a;
     padding: 5px;
+}
+
+.icons_colorCross{
+   color: darkslategray;;
 }
 
 .feb17{
@@ -82,7 +85,7 @@
 .navbar a{
   color: #92856a;       
   text-decoration: none;
-  padding: 53px;
+  /*padding: 53px;*/
   font-size: 22px;    
 }
 
@@ -99,15 +102,22 @@
 }
 /* the end of section 1 page 1 */
 
-/* section 2 page 1 " home page "cross" " */
+/* section 2&4 page 1 " home page "cross" " */
 #section2 , #section4{
-    background-image: url("cross1a.png");
     height: 1070px;
     width: 1350px;
     /*max-height: 200%;*/
     max-width: 100%;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+#section2{
+     background-image: url("cross1a.png");
+}
+
+#section4{
+     background-image: url("cross2a.png");
 }
 
 .containerClone{
@@ -125,6 +135,9 @@
      top: 450;
      left:50;
      position: absolute;
+}
+.containerClone .row .Diamond .thumbnail{
+    position: absolute;
 }
 
 /* end of section 2 page 1 "home page "cross" " */
@@ -298,11 +311,9 @@
     transform: translate(-50%, -50%);
 }
 
-
 #foot_section{
     padding-top: 50px;
 }
-
 
 .footer {
     left: 0;
@@ -402,21 +413,23 @@
   -ms-transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 .picHug {
-  background: url(http://placekitten.com/g/150/150);
-  width: 500px;
-  height: 500px;
-  margin: -50%;
-  -ms-transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
+  max-width: 300px;
+  max-height: 300px;  
+  transform: rotate(-45deg);
 }
 
 .textWithDiamond {
     background:transparent;
-    margin-top:-30%;
+    margin-top:50%;
+    padding-right: 5px;
 }
 
+.Diamond{
+    margin-top: 30%;
+    margin-left: 25px;
+    position: absolute;
+}
