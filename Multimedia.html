@@ -155,7 +155,7 @@
      <!-- script of req images -->
  <script  id="reqPhotos-template" type="text/x-handlebars-template">
    {{#each photos}}
-     {{#compare num "3"}}
+     {{#compare num 3}}
      <div class = "col-md-4">
         <div class ="noborder">    
         <div class ="thumbnail">
@@ -176,7 +176,7 @@
     <!-- script of more images -->
  <script  id="morePhotos-template" type="text/x-handlebars-template">
    {{#each photos}}
-     {{#morethan num "3"}}
+     {{#morethan num 3}}
      <div class = "col-md-4">
         <div class ="noborder">    
         <div class ="thumbnail">
@@ -217,7 +217,7 @@
 <!-- script of reqVideos -->
 <script  id="reqVideos-template" type="text/x-handlebars-template">
    {{#each video_items}}
-     {{#compare num "5"}}
+     {{#compare num 5}}
      <div class = "col-md-4 col-xs-12">
          <div class ="noborder">    
           <div class ="thumbnail" style = "background-color: transparent;">
@@ -238,7 +238,7 @@
 <!-- script of more video -->     
 <script  id="moreVideos-template" type="text/x-handlebars-template">
    {{#each video_items}}
-    {{#morethan num "5"}}
+    {{#morethan num 5}}
      <div class = "col-md-4 col-xs-12">
       <div class ="noborder">    
         <div class ="thumbnail" style = "background-color: transparent;">

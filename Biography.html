@@ -117,7 +117,7 @@
  
  <script  id="reqPositions-template" type="text/x-handlebars-template">
    {{#each position_items}}
-     {{#compare num "3"}}
+     {{#compare num 3}}
      <div class = "col-md-4">
         <div  style="min-height: 370px;"> 
           <h3 class = "headers_color">{{title}}</h3>
@@ -140,7 +140,7 @@
      
  <script  id="morePositions-template" type="text/x-handlebars-template">
    {{#each position_items}}
-     {{#morethan num "3"}}
+     {{#morethan num 3}}
      <div class = "col-md-4">
       <h3 class = "headers_color">{{title}}</h3>
       <h6 class = "hline"></h6>

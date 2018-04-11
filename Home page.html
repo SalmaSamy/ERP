@@ -246,7 +246,7 @@
  <!-- script of the first 5 news item -->
  <script  id="reqNews-template" type="text/x-handlebars-template">
    {{#each news_items}}
-     {{#compare num "5"}}
+     {{#compare num 5}}
      <div class = "col-md-4">
       {{#if img_src}}
         <div class ="noborder">    
@@ -310,7 +310,7 @@
  <!-- script of loading more items -->
  <script  id="moreNews-template" type="text/x-handlebars-template">
    {{#each news_items}}
-     {{#morethan num "5"}}
+     {{#morethan num 5}}
      <div class = "col-md-4">
       {{#if img_src}}
         <div class ="noborder">    
