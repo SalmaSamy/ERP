@@ -1,12 +1,17 @@
 <html>
- <head>
+
+  <head>
    <link href="css/style.css" rel="stylesheet">
    <link href = "css/bootstrap.min.css" rel ="stylesheet">   
    <script src="js/jquery.min.js"></script>
+   <script src="js/photos.js"></script>
+   <script src="js/videos.js"></script>     
+   <script src="js/handlebars-v3.0.3.js"></script> 
+   <script src="js/news.js"></script>  
+    <script src="js/positions.js"></script>  
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">       
  </head>
-
  <body>
      
     <!-- header section --> 
@@ -22,14 +27,30 @@
       </div>
   </div>   
     <!-- end of header section -->
-     
-     
-     <!-- the heart of the page  "the big container"-->
+         
+     <!-- section 1 -->
     <div class = "container">
-       
+       <div id = "redNew"> </div>
     </div> 
      
-     <!-- end of the big container -->
+     <!-- end of section 1  -->
+     
+     <!--section 2 -->
+     <div id = "section2">
+        <div class = "container">
+            <div class = "row">
+              <div id = "reqImgs" style="margin-top: 28%;">
+              </div>
+              <div id = "moreImgs">
+              </div>
+            </div>
+       <center>     
+        <span class = "btn" id = "loadmore">&#9670;</span>
+        <p style = "color: #92856a">load more</p>     
+       </center>  
+        </div>
+     </div>
+     <!--end ofsection 2-->
      
      <!-- footer section -->
      <div id ="foot_section">
@@ -67,6 +88,72 @@
     </div>
     <!-- the end of the footer section -->
 
+ <script  id="reqPhotos-template" type="text/x-handlebars-template">
+   {{#each news_items}}
+     {{#compare num 3}}
+     <div class = "col-md-4">            
+        <div class ="thumbnail" style="padding: 20px;">
+         <p style = "font-size: 18px;color: #92856a;">{{date}}</p>   
+         <p style = "font-size: 26px;font-weight: bold;color: #92856a;">{{title}}</p>   
+         <p>{{description}}</p> 
+         <div class ="icon-box" id = "sharedBox" style = "padding: 40px;"> 
+                <a href="#" id = "colorIcon" class="fa fa-facebook Icons"></a>
+                <a href="#" id = "colorIcon" class="fa fa-twitter Icons" ></a>
+                <a href="#" id = "colorIcon"><span class="fa fa-whatsapp"></span></a>
+                <a href="#" id = "colorIcon"><span class="fa fa-telegram"></span></a> 
+                <a href="#" class="material-icons icon-box" style="float: right">add_circle_outline</a>
+        </div>   
+       </div>       
+     </div>
+     {{/compare}}
+    {{/each}}
+ </script>
+    
+ <script  id="mainNew-template" type="text/x-handlebars-template">
+   {{#each main_news}}
+     {{#compare num 1}}
+     <div class="col-md-offset-1 col-md16">
+         <div class="thumbnail">
+            <img src ="photos\07_Details\1c.jpg"> 
+                <div class="thumbnail">
+                    <p style = "font-size: 26px;font-weight: bold;color: #92856a;">{{title}}</p>   
+                    <p>{{description}}</p> 
+                    <div class ="icon-box" id = "sharedBox" style = "padding: 40px;"> 
+                    <a href="#" id = "colorIcon" class="fa fa-facebook Icons"></a>
+                    <a href="#" id = "colorIcon" class="fa fa-twitter Icons" ></a>
+                    <a href="#" id = "colorIcon"><span class="fa fa-whatsapp"></span></a>
+                    <a href="#" id = "colorIcon"><span class="fa fa-telegram"></span></a> 
+                    <span style="color: #92856a;float: right">{{date}}</span>
+                </div>   
+            </div> 
+        </div> 
+     </div>
+     {{/compare}}
+    {{/each}}
+ </script>
+    <!-- script of more images -->
+ <script  id="morePhotos-template" type="text/x-handlebars-template">
+   {{#each news_items}}
+     {{#morethan num 3}}
+     <div class = "col-md-4">            
+        <div class ="thumbnail" style="padding: 20px;">
+         <p style = "font-size: 18px;color: #92856a;">{{date}}</p>   
+         <p style = "font-size: 26px;font-weight: bold;color: #92856a;">{{title}}</p>   
+         <p>{{description}}</p> 
+         <div class ="icon-box" id = "sharedBox" style = "padding: 40px;"> 
+                <a href="#" id = "colorIcon" class="fa fa-facebook Icons"></a>
+                <a href="#" id = "colorIcon" class="fa fa-twitter Icons" ></a>
+                <a href="#" id = "colorIcon"><span class="fa fa-whatsapp"></span></a>
+                <a href="#" id = "colorIcon"><span class="fa fa-telegram"></span></a> 
+                <a href="#" class="material-icons icon-box" style="float: right">add_circle_outline</a>
+        </div>   
+       </div>       
+     </div>
+     {{/morethan}}
+    {{/each}}
+ </script>
+    
+ 
  
  <script>
      var countheaders = 1;
@@ -77,8 +164,43 @@
       }
       
       $(document).ready(function(){
-         setInterval(function(){ swapheaders() }, 2000);    
+         setInterval(function(){ swapheaders() }, 2000);   
+          
+           // Modeling the reqular photos script  
+         var source   = $("#reqPhotos-template").html();
+         var template = Handlebars.compile(source);
+         var html  = template(news);
+         $('#reqImgs').html(html);
+        
+          var source   = $("#mainNew-template").html();
+         var template = Handlebars.compile(source);
+         var html  = template(news);
+         $('#redNew').html(html);
       });
+     
+      // modeling and display more imgs
+      $("#loadmore").click(function(){
+         var source = $("#morePhotos-template").html();
+         var temp = Handlebars.compile(source);  
+         var html  = temp(news);
+         $('#moreImgs').html(html); 
+        });
+     
+      Handlebars.registerHelper('compare', function (param , value , options){
+            if(param <= value){
+              return options.fn(this);
+            }
+            return options.inverse(this);          
+       });
+     
+       Handlebars.registerHelper('morethan', function (param , value , options){
+            if(param <= value){
+              return options.inverse(this); 
+           }
+           return options.fn(this); 
+          
+      });
+     
  </script>     
  </body>
     
