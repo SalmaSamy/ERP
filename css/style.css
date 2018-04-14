@@ -194,7 +194,7 @@
 
 .overlapup{
     background-color: white;
-    opacity: 0.9; 
+    opacity: 0.8; 
     margin-top:-25px; 
     padding: 15px;
     border-radius: 5px;
@@ -208,8 +208,8 @@
 
 .overlapupSemony{
     background-color: white;
-    opacity: 0.9; 
-    margin-top:-75px; 
+    opacity: 0.8; 
+    margin-top:-100px;
     padding: 15px;
     border-radius: 5px;
     border: 1px solid #e1e3e4;  
@@ -262,7 +262,8 @@
 }
 
 .box{
-	padding-left: 10px;
+    min-height: 250px;
+	padding: 15px;
 }
 
 /* end of salma part */
