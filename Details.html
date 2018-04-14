@@ -30,24 +30,25 @@
          
      <!-- section 1 -->
     <div class = "container">
+        <br><br>
        <div id = "redNew"> </div>
     </div> 
      
      <!-- end of section 1  -->
      
      <!--section 2 -->
-     <div id = "section2">
+    <div id = "section2_p3" style = "min-height: 1400px;">
         <div class = "container">
-            <div class = "row">
-              <div id = "reqImgs" style="margin-top: 28%;">
-              </div>
-              <div id = "moreImgs">
+            <div class = "row" style="margin-top: 450px;">
+                <div id = "reqImgs">
+                </div>
+                 <div id = "moreImgs">
               </div>
             </div>
-       <center>     
+        <center>     
         <span class = "btn" id = "loadmore">&#9670;</span>
         <p style = "color: #92856a">load more</p>     
-       </center>  
+        </center>     
         </div>
      </div>
      <!--end ofsection 2-->
@@ -56,7 +57,7 @@
      <div id ="foot_section">
         <div class = "container">
           <div class = "row">
-            <div class = "col-md-offset-2 col-md-3">
+            <div class = "col-md-offset-2 col-md-3 col-xs-3">
                 <img src="photos/Logo.png" width="100">
             </div>
             <div class = "col-md-2 col-xs-2">
@@ -112,22 +113,24 @@
  <script  id="mainNew-template" type="text/x-handlebars-template">
    {{#each main_news}}
      {{#compare num 1}}
-     <div class="col-md-offset-1 col-md16">
-         <div class="thumbnail">
-            <img src ="photos\07_Details\1c.jpg"> 
-                <div class="thumbnail">
-                    <p style = "font-size: 26px;font-weight: bold;color: #92856a;">{{title}}</p>   
-                    <p>{{description}}</p> 
-                    <div class ="icon-box" id = "sharedBox" style = "padding: 40px;"> 
-                    <a href="#" id = "colorIcon" class="fa fa-facebook Icons"></a>
-                    <a href="#" id = "colorIcon" class="fa fa-twitter Icons" ></a>
-                    <a href="#" id = "colorIcon"><span class="fa fa-whatsapp"></span></a>
-                    <a href="#" id = "colorIcon"><span class="fa fa-telegram"></span></a> 
-                    <span style="color: #92856a;float: right">{{date}}</span>
-                </div>   
-            </div> 
-        </div> 
-     </div>
+     <div class="col-md-offset-1 col-md-10">
+                    <div class="thumbnail">
+                        <img src="photos/02 Homepage/anotherphoto.png">
+                        <div class="overlapup">
+                            <p class="section2_page2_row1_col1" style="font-size: 20px;">{{title}}</p>
+                            <hr>
+                            <p style = "font-size: 14px;font-weight: bold;">
+                           {{details}}</p>
+                             <div class ="icon-box" >
+                                 <a href="#" class="fa fa-facebook icon-box"></a>
+                                 <a href="#" class="fa fa-twitter icon-box" ></a>
+                                 <a href="#" class="fa fa-whatsapp icon-box" ></a>
+                                 <a href="#" class="fa fa-telegram icon-box" ></a>
+                                 <span  style="color: #92856a;float: right; font-weight: bold;">{{date}}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
      {{/compare}}
     {{/each}}
  </script>
