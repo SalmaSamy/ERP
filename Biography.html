@@ -30,19 +30,18 @@
         
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-md-offset-1">
+            <div class="col-md-8">
                 <div class="thumbnail">
                     <img src="photos/Biography/biography.jpg">
                 </div>
              </div>
              <div class="col-md-4">
-                 <br><br>
                 <div class="overlap">
                     <div class="box">
                         <h1 class="headers_color">H.H.'S</h1>
                         <h1 class="headers_color">Biography</h1>
                         <hr>
-                        <p>
+                        <p style = "font-size: 20px;">
                          Havana, ooh na-na Half of my heart is in Havana, ooh-na-na
                          He took me back to East Atlanta, na-na-na Oh, but my heart is in Havana
                          There's somethin' 'bout his He didn't walk up with that "how you doin'?"
@@ -57,14 +56,14 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4 col-md-offset-1" style="z-index:2;">
+            <div class="col-md-4 " style="z-index:2;">
                 <br><br>
                 <div class="overlapRight">
                     <div class="box">
                         <h1 class="headers_color">H.H.'S</h1>
                         <h1 class="headers_color">Sons</h1>
                         <hr>
-                        <p>
+                        <p style = "font-size: 20px;">
                         Havana, ooh na-na Half of my heart is in Havana, ooh-na-na
                         He took me back to East Atlanta, na-na-na Oh, but my heart is in Havana
                         There's somethin' 'bout his He didn't walk up with that "how you doin'?"
@@ -77,7 +76,7 @@
                     </div>
                  </div>
             </div>
-            <div class="col-md-6" style="z-index:1;">
+            <div class="col-md-8" style="z-index:1;">
                 <div class="thumbnail" style="z-index:0;">
                 <img src="photos/Biography/sons.jpg">
                 </div>
@@ -117,30 +116,32 @@
     <!-- end of section2-->
 
     <!-- section3 postions -->
+<div class = "container">    
     <div id = "section3"> 
         <div class="row">
-          <div class="col-md-offset-1 col-md-12">
+          <div class="col-md-12">
             <h1 class="headers_color">H.H.'S</h1>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-offset-1 col-md-2">
+          <div class="col-md-2">
             <h2 class="headers_color">Positions</h2>
-            <hr>
+            <div class = "hline"></div>
           </div>
           <div class="col-md-8" style="bottom: -20px;">
             <br>
-            <p>
+            <p style = "font-size: 20px;">
             Havana, ooh na-na Half of my heart is in Havana, ooh-na-na He took me back to East Atlanta,
             na-na-na Oh, but my heart is in Havana There's somethin' 'bout his He didn't walk up with that "how you doin'?"
             </p>
           </div>
         </div>
         <br><br>
-    <div class="container">
         <div class = "row">
             <div id = "mainPositions">
             </div>
+        </div>
+        <div class ="row">
             <div id = "reqPositions">
             </div>
             <div id = "loadmore_positions">
@@ -151,7 +152,7 @@
            <p style = "color: #92856a">load more</p>     
         </center>       
       </div>
-    </div>
+    </div> 
     <!--end of section3-->     
         
      <!-- section4 "Cross"-->
@@ -191,21 +192,22 @@
      </div>
      <!-- end of section4 -->
      
-     <!--section 5 awards-->
+     <!--section 5 awards--> 
      <div id = "section5">
+        <div class = "container"> 
             <div class = "row">
-             <div class = "col-md-offset-1 col-md-12">
+             <div class = "col col-md-12">
               <h1>H.H.'S</h1> 
              </div>
             </div>
             <div class="row">
-                <div class="col-md-offset-1 col-md-2">
+                <div class="col-md-2">
                     <h1 class="headers_color">Awards</h1>
-                    <hr>
+                    <div class = "hline"></div>
                 </div>
                 <div class="col-md-8">
                     <br>
-                    <p>
+                    <p style = "font-size: 20px;">
                      Havana, ooh na-na Half of my heart is in Havana, ooh-na-na
                      He took me back to East Atlanta, na-na-na Oh, but my heart is in Havana
                      There's somethin' 'bout his He didn't walk up with that "how you doin'?"
@@ -224,6 +226,7 @@
                <p style = "color: #92856a">load more</p>     
             </center>       
         </div>
+     </div>        
     </div>
     <!--end of section5-->  
      
@@ -296,10 +299,10 @@
      
  <script id="mainPositions-template" type="text/x-handlebars-template">
   {{#each main_positions}}
-     <div class = "col-md-6 col-xs-6">
+     <div class = "col-md-6">
       <div class ="noborder">    
         <div class ="thumbnail">
-         <img src = {{img_src}} > <!--something is wrong when i add width!-->
+         <img src = {{img_src}}> 
          <div class = "thumbnail">    
             <h3 class = "headers_color" style="padding:15px;">{{title}}</h3>
             <br>
