@@ -1,3 +1,22 @@
+input{
+    padding:5px; 
+    background:none; 
+    border:0 none;
+    outline: 0;
+    border-bottom: 1px solid #92856a;
+}
+
+
+input[type=submit] {
+   margin-left: 70px;
+}
+
+::-webkit-input-placeholder{
+    color: #92856a;
+    opacity: 1;
+}
+
+
 /* Ashrakat section1 page1*/
 .section2_page2_row1_col1{
     color: #92856a;
@@ -103,9 +122,10 @@
 /* the end of section 1 page 1 */
 
 /* section 2&4 page 1 " home page "cross" " */
-#section2 , #section4{
+#section2 , #section4, #page6{
     height: 1070px;
     width: 1350px;
+    z-index: 1;
     /*max-height: 200%;*/
     max-width: 100%;
     background-repeat: no-repeat;
@@ -115,6 +135,7 @@
 #section2{
      background-image: url("cross1a.png");
 }
+
 
 #section4{
      background-image: url("cross2a.png");
@@ -157,7 +178,7 @@
 
 .page_4_paragraph2{
     color: white;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 .mycontent-right {
