@@ -46,66 +46,7 @@ var news = {
             date:"2015",
             title: "Mohammed Bin Zayed receives Qatari FM",
             description: "His Highness Sheikh Mohammed Bin Zayd Al Nahyan, Crown Prince of Abo Dhabi and Deputy Supreme Commander of the UAE Armed Force's, Today receives visiting Sheikh Mohammed Bin Abdulrahman Al-Thani, Qatar Minister of Foreign Affairs. at Al Shati Palace."
-        },
-        {
-            num : 8,
-            date:"2015",
-            title: "Mohammed Bin Zayed receives Qatari FM",
-            description: "His Highness Sheikh Mohammed Bin Zayd Al Nahyan, Crown Prince of Abo Dhabi and Deputy Supreme Commander of the UAE Armed Force's, Today receives visiting Sheikh Mohammed Bin Abdulrahman Al-Thani, Qatar Minister of Foreign Affairs. at Al Shati Palace."
-        },
-        
-         {
-            num : 9,
-            date:"2015",
-            title: "Mohammed Bin Zayed receives Qatari FM",
-            description: "His Highness Sheikh Mohammed Bin Zayd Al Nahyan, Crown Prince of Abo Dhabi and Deputy Supreme Commander of the UAE Armed Force's, Today receives visiting Sheikh Mohammed Bin Abdulrahman Al-Thani, Qatar Minister of Foreign Affairs. at Al Shati Palace."
-        },
-         {
-            num : 10,
-            date:"2015",
-            title: "Mohammed Bin Zayed receives Qatari FM",
-            description: "His Highness Sheikh Mohammed Bin Zayd Al Nahyan, Crown Prince of Abo Dhabi and Deputy Supreme Commander of the UAE Armed Force's, Today receives visiting Sheikh Mohammed Bin Abdulrahman Al-Thani, Qatar Minister of Foreign Affairs. at Al Shati Palace."
-        },
-         {
-            num : 11,
-            date:"2015",
-            title: "Mohammed Bin Zayed receives Qatari FM",
-            description: "His Highness Sheikh Mohammed Bin Zayd Al Nahyan, Crown Prince of Abo Dhabi and Deputy Supreme Commander of the UAE Armed Force's, Today receives visiting Sheikh Mohammed Bin Abdulrahman Al-Thani, Qatar Minister of Foreign Affairs. at Al Shati Palace."
-        },
-        
-         {
-            num : 11,
-            date:"2015",
-            title: "Mohammed Bin Zayed receives Qatari FM",
-            description: "His Highness Sheikh Mohammed Bin Zayd Al Nahyan, Crown Prince of Abo Dhabi and Deputy Supreme Commander of the UAE Armed Force's, Today receives visiting Sheikh Mohammed Bin Abdulrahman Al-Thani, Qatar Minister of Foreign Affairs. at Al Shati Palace."
-        },
-         {
-            num : 13,
-            date:"2015",
-            title: "Mohammed Bin Zayed receives Qatari FM",
-            description: "His Highness Sheikh Mohammed Bin Zayd Al Nahyan, Crown Prince of Abo Dhabi and Deputy Supreme Commander of the UAE Armed Force's, Today receives visiting Sheikh Mohammed Bin Abdulrahman Al-Thani, Qatar Minister of Foreign Affairs. at Al Shati Palace."
-        },
-         {
-            num : 14,
-            date:"2015",
-            title: "Mohammed Bin Zayed receives Qatari FM",
-            description: "His Highness Sheikh Mohammed Bin Zayd Al Nahyan, Crown Prince of Abo Dhabi and Deputy Supreme Commander of the UAE Armed Force's, Today receives visiting Sheikh Mohammed Bin Abdulrahman Al-Thani, Qatar Minister of Foreign Affairs. at Al Shati Palace."
-        },
-        
-         {
-            num : 15,
-            date:"2015",
-            title: "Mohammed Bin Zayed receives Qatari FM",
-            description: "His Highness Sheikh Mohammed Bin Zayd Al Nahyan, Crown Prince of Abo Dhabi and Deputy Supreme Commander of the UAE Armed Force's, Today receives visiting Sheikh Mohammed Bin Abdulrahman Al-Thani, Qatar Minister of Foreign Affairs. at Al Shati Palace."
-        },
-         {
-            num : 16,
-            date:"2015",
-            title: "Mohammed Bin Zayed receives Qatari FM",
-            description: "His Highness Sheikh Mohammed Bin Zayd Al Nahyan, Crown Prince of Abo Dhabi and Deputy Supreme Commander of the UAE Armed Force's, Today receives visiting Sheikh Mohammed Bin Abdulrahman Al-Thani, Qatar Minister of Foreign Affairs. at Al Shati Palace."
-      
         }
-         
     ],
     
   "main_news" : [
